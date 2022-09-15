@@ -11,7 +11,7 @@ const PricePlan = () => {
           One simple price plan.
         </h2>
         <p className="text-xs py-2">
-          Start growing your twitter account by analyzing your follower's
+          Start growing your twitter account by analyzing your follower{"'"}s
           patterns
         </p>
       </div>
