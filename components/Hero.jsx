@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
         <div className="grid grid-rows-2">
           <div className="relative flex min-h-[50px]">
-            <div className="absolute top-0  left-2 ">
+            <div className="absolute top-0 left-2 ">
               <div className="h-8 w-8 relative">
                 <Image src={Avatar1} objectFit="fill" layout="fill" />
               </div>
@@ -63,7 +63,17 @@ const Hero = () => {
                 <Image src={Avatar1} objectFit="fill" layout="fill" />
               </div>
             </div>
-            <div className="absolute top-0 left-17">
+            <div className="absolute top-0 left-16">
+              <div className="h-8 w-8 relative">
+                <Image src={Avatar1} objectFit="fill" layout="fill" />
+              </div>
+            </div>
+            <div className="absolute top-0 left-20">
+              <div className="h-8 w-8 relative">
+                <Image src={Avatar1} objectFit="fill" layout="fill" />
+              </div>
+            </div>
+            <div className="absolute top-0 left-24">
               <div className="h-8 w-8 relative">
                 <Image src={Avatar1} objectFit="fill" layout="fill" />
               </div>
