@@ -26,7 +26,12 @@ const PricePlan = () => {
         <div className="flex flex-col pt-3 pb-3 gap-y-2">
           <div className="flex items-start gap-x-3">
             <div className="h-4 w-4 relative">
-              <Image src={CheckMark} layout="fill" objectFit="contain" />
+              <Image
+                src={CheckMark}
+                layout="fill"
+                objectFit="contain"
+                alt="checkmark"
+              />
             </div>
             <p className="text-xs leading-relaxed">
               Unlimited* scheduled tweets and threads.
@@ -34,7 +39,12 @@ const PricePlan = () => {
           </div>
           <div className="flex items-start gap-x-3">
             <div className="h-4 w-4 relative ">
-              <Image src={CheckMark} layout="fill" objectFit="contain" />
+              <Image
+                src={CheckMark}
+                layout="fill"
+                objectFit="contain"
+                alt="checkmark"
+              />
             </div>
             <p className="text-xs leading-relaxed">
               Schedule up to 3 weeks in advance.
@@ -42,7 +52,12 @@ const PricePlan = () => {
           </div>
           <div className="flex items-start gap-x-3">
             <div className="h-4 w-4 relative ">
-              <Image src={CheckMark} layout="fill" objectFit="contain" />
+              <Image
+                src={CheckMark}
+                layout="fill"
+                objectFit="contain"
+                alt="checkmark"
+              />
             </div>
             <p className="text-xs leading-relaxed whitespace-pre-wrap">
               Real-time audience analytics tracking <br /> up to 5k followers.

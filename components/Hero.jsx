@@ -40,42 +40,82 @@ const Hero = () => {
           <div className="relative flex min-h-[50px]">
             <div className="absolute top-0 left-2 ">
               <div className="h-8 w-8 relative">
-                <Image src={Avatar1} objectFit="fill" layout="fill" />
+                <Image
+                  src={Avatar1}
+                  objectFit="fill"
+                  layout="fill"
+                  alt="avatart"
+                />
               </div>
             </div>
             <div className="absolute top-0 left-5">
               <div className="h-8 w-8 relative">
-                <Image src={Avatar1} objectFit="fill" layout="fill" />
+                <Image
+                  src={Avatar1}
+                  objectFit="fill"
+                  layout="fill"
+                  alt="avatart"
+                />
               </div>
             </div>
             <div className="absolute top-0 left-8">
               <div className="h-8 w-8 relative">
-                <Image src={Avatar1} objectFit="fill" layout="fill" />
+                <Image
+                  src={Avatar1}
+                  objectFit="fill"
+                  layout="fill"
+                  alt="avatart"
+                />
               </div>
             </div>
             <div className="absolute top-0 left-11 ">
               <div className="h-8 w-8 relative">
-                <Image src={Avatar1} objectFit="fill" layout="fill" />
+                <Image
+                  src={Avatar1}
+                  objectFit="fill"
+                  layout="fill"
+                  alt="avatart"
+                />
               </div>
             </div>
             <div className="absolute top-0 left-14">
               <div className="h-8 w-8 relative">
-                <Image src={Avatar1} objectFit="fill" layout="fill" />
+                <Image
+                  src={Avatar1}
+                  objectFit="fill"
+                  layout="fill"
+                  alt="avatart"
+                />
               </div>
             </div>
             <div className="absolute top-0 left-16">
               <div className="h-8 w-8 relative">
-                <Image src={Avatar1} objectFit="fill" layout="fill" />
+                <Image
+                  src={Avatar1}
+                  objectFit="fill"
+                  layout="fill"
+                  alt="avatart"
+                />
               </div>
             </div>
             <div className="absolute top-0 left-20">
               <div className="h-8 w-8 relative">
-                <Image src={Avatar1} objectFit="fill" layout="fill" />
+                <Image
+                  src={Avatar1}
+                  objectFit="fill"
+                  layout="fill"
+                  alt="avatart"
+                />
               </div>
             </div>
             <div className="absolute top-0 left-24">
               <div className="h-8 w-8 relative">
-                <Image src={Avatar1} objectFit="fill" layout="fill" />
+                <Image
+                  src={Avatar1}
+                  objectFit="fill"
+                  layout="fill"
+                  alt="avatart"
+                />
               </div>
             </div>
           </div>

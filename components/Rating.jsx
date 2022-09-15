@@ -45,7 +45,12 @@ const Rating = () => {
             <div className="flex justify-between items-center">
               <div className="flex items-center">
                 <div className="w-14 h-14 relative">
-                  <Image src={e.photo} layout="fill" objectFit="contain" />
+                  <Image
+                    src={e.photo}
+                    layout="fill"
+                    objectFit="contain"
+                    alt="photo"
+                  />
                 </div>
                 <div className="flex flex-col pl-2 ">
                   <strong className="text-sm">{e.name}</strong>
@@ -53,7 +58,12 @@ const Rating = () => {
                 </div>
               </div>
               <div className="w-5 h-5 relative ">
-                <Image src={Twitter} layout="fill" objectFit="contain" />
+                <Image
+                  src={Twitter}
+                  layout="fill"
+                  objectFit="contain"
+                  alt="twitter"
+                />
               </div>
             </div>
             <div className="pt-3 text-[#7F7F7F] font-medium">
@@ -62,7 +72,12 @@ const Rating = () => {
             <div className="pt-2 flex items-center justify-between text-[#7F7F7F]">
               <div className="flex items-center">
                 <div className="relative h-4 w-4">
-                  <Image src={Like} layout="fill" objectFit="contain" />
+                  <Image
+                    src={Like}
+                    layout="fill"
+                    objectFit="contain"
+                    alt="like"
+                  />
                 </div>
                 <small className="pl-1">{e.like}</small>
               </div>
