@@ -32,7 +32,7 @@ const Hero = () => {
           <h1 className="font-bold text-[2.5rem] text-black leading-tight sm:!text-2xl md:text-4xl">
             Twitter analytics taken to a whole new level.
           </h1>
-          <p className="leading-relaxed text-base sm:!text-sm">
+          <p className="leading-relaxed  sm:text-sm">
             Chirp is a suite of Twitter analytics that will help you better
             understand your audience, which tweets they like, and most
             importantly , when they are the most active on Twitter.
@@ -80,7 +80,7 @@ const Hero = () => {
             ))}
           </div>
           <div>
-            <p className="w-3/4 sm:w-full text-xs">
+            <p className="w-3/4 sm:w-full sm:text-xs">
               Join <span className="text-[#237A99] font-bold">195</span> others
               who have analyzed their followers and scheduled{" "}
               <span className="text-[#237A99] font-bold">1342</span> tweets!
