@@ -40,7 +40,9 @@ const Navbar = () => {
               FAQ
             </a>
           </li>
-          <ButtonTwitter />
+          <li>
+            <ButtonTwitter />
+          </li>
         </ul>
       </div>
       <div className="hidden sm:block z-20" onClick={menuClick}>

@@ -6,6 +6,7 @@ const ButtonTwitter = ({ text, width }) => {
   return (
     <>
       <button
+        type="button"
         className={`flex items-center justify-center bg-[#1DA1F2] h-10 px-4 gap-3 rounded-md md:h-9 md:px-2 w-${
           width ? `[${width}]` : "auto"
         }`}
