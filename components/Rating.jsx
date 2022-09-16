@@ -35,11 +35,11 @@ const customers = [
 
 const Rating = () => {
   return (
-    <article className="px-[80px] bg-[#D7F5F5]  py-10 inline-block">
-      <h2 className="pb-10 text-3xl font-bold text-black">
+    <article className="px-[80px] bg-[#D7F5F5]  py-10 inline-block md:px-10 sm:!px-4">
+      <h2 className="pb-10 text-3xl font-bold text-black sm:!text-2xl">
         What our customers say
       </h2>
-      <div className="grid grid-cols-3 gap-x-5">
+      <div className="grid grid-cols-3 gap-x-5 md:grid-cols-1 md:gap-y-5">
         {customers.map((e, i) => (
           <div key={i++} className="bg-white text-black p-4 rounded-md h-fit">
             <div className="flex justify-between items-center">
@@ -71,7 +71,7 @@ const Rating = () => {
             </div>
             <div className="pt-2 flex items-center justify-between text-[#7F7F7F]">
               <div className="flex items-center">
-                <div className="relative h-4 w-4">
+                <div className="relative h-4 w-4 ">
                   <Image
                     src={Like}
                     layout="fill"
